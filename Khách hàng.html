@@ -3,6 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Khách hàng</title>
+<style>
+    .cangiua{
+        text-align: center;
+    }
+    .rong{
+        width: 400px;
+    }
+    .mau{
+        background-color: antiquewhite;
+    }
+</style>
 </head>
 <body>
 <form method="get">
@@ -48,6 +59,98 @@
     <td></td>
     <td>Cents</td>
 </tr>
+
+    </table>
+    <h3>What rate your level of agreement with the following statement.</h3>
+    <form method="post">
+        <input type="text" name="nhập thông tin" style="width: 800px; height: 200px"/>
+
+    </form>
+        <p>Please rate your level of agreement with the following statement.</p>
+    <table class="mau">
+        <tr class="rong">
+            <td></td>
+            <td>Strongly Disagree</td>
+        <td>Disagree</td>
+           <td>Agree</td>
+           <td>Strongly Agree</td>
+
+        </tr>
+        <tr class="cangiua">
+            <th rowspan="2"">
+               <p>Our products are high quality.</p>
+
+            </th>
+            <td>
+                <input type="radio" name="1" value="1"/>
+            </td>
+            <td>
+                <input type="radio" name="2" value="2"/>
+            </td>
+            <td>
+                <input type="radio" name="3" value="3"/>
+            </td>
+            <td>
+                <input type="radio" name="4" value="4"/>
+            </td><br>
+
+        </tr>
+        <tr class="cangiua">
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr class="cangiua">
+            <th rowspan="2"">
+            <p>Our products are priced fairly.</p>
+
+            </th>
+            <td>
+                <input type="radio" name="1" value="1"/>
+            </td>
+            <td>
+                <input type="radio" name="2" value="2"/>
+            </td>
+            <td>
+                <input type="radio" name="3" value="3"/>
+            </td>
+            <td>
+                <input type="radio" name="4" value="4"/>
+            </td><br>
+
+        </tr>
+        <tr class="cangiua">
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr class="cangiua">
+            <th rowspan="2"">
+            <p>You would recommened our product to a friend or coworker.</p>
+
+            </th>
+            <td>
+                <input type="radio" name="1" value="1"/>
+            </td>
+            <td>
+                <input type="radio" name="2" value="2"/>
+            </td>
+            <td>
+                <input type="radio" name="3" value="3"/>
+            </td>
+            <td>
+                <input type="radio" name="4" value="4"/>
+            </td><br>
+
+        </tr>
+        <tr class="cangiua">
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
 
     </table>
 </form>
