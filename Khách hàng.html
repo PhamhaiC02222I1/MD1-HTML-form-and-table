@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Khách hàng</title>
+</head>
+<body>
+<form method="get">
+    <h1>Market Research Survey</h1>
+    <p>please take a few moment to complete this satisfation survey.</p>
+    <h3>What is your age range?</h3>
+    <select name="tuổi" style="width: 150px"  >
+        <option value="thanh niên">     18-24     </option>
+        <option value="trung niên">     24-50     </option>
+        <option value="cao tuổi">       50-70      </option>
+    </select>
+    <h3>
+        What is your yearly income range?
+    </h3>
+    <select name="Thu nhập" style="width: 150px"  >
+        <option value="thấp">     $0-$25000    </option>
+        <option value="trung bình">    $25000-$50000     </option>
+        <option value="cao">      $50000-$100000      </option>
+    </select>
+    <h3>Gender</h3>
+    <input type="radio" name="giới tính"/> Male <br>
+    <input type="radio" name="giới tính"/> Female
+<h3>Which of following products have your purchased in the last 2 months. Please check all this apply </h3>
+    <input type="checkbox" name="products" value="products"/> Product 1 <br>
+    <input type="checkbox" name="products" value="products"> Product 2 <br>
+    <input type="checkbox" name="products" value="products"> Product 3 <br>
+    <h3>
+      How often would you use our new product?</h3>
+    <input type="radio" name="tần suất"/> Daily <br>
+    <input type="radio" name="tần suất"/> Weekly <br>
+    <input type="radio" name="tần suất"/> Monthly <br>
+    <h3>What would you pay for the new product?</h3>
+    <table >
+        <tr>
+            <td>$</td>
+        <td><input type="text" style="width: 80px"></td>
+        <td>.</td>
+       <td><input type="text" style="width: 30px"></td>
+        </tr>
+<tr>
+    <td></td>
+    <td>Dollars</td>
+    <td></td>
+    <td>Cents</td>
+</tr>
+
+    </table>
+</form>
+</body>
+</html>
